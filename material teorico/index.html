@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo del DOM en JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Seleccionar Elementos -->
+    <h1 id="tituloPrincipal">Manipulando el DOM</h1>
+    <div class="miClase">
+        <h4>titulo secundario</h4>
+    </div>
+    <div>
+        <p class="otro">PRIMER PARRAFO, adipisicing elit. Dolor dolore illo facere reprehenderit ab, a architecto
+            expedita! Corporis, placeat assumenda!</p>
+        <p class="otro">SEGUNDO PARRAFO, consectetur adipisicing elit. Iure, quasi est consectetur beatae eaque tempore
+            adipisci earum ipsum! Qui veniam iste minus veritatis odio ducimus eum eius quos temporibus excepturi?</p>
+    </div>
+    <hr>
+    <!-- ---------------------------------------------------------------- -->
+    <!-- agregar y eliminar elementos -->
+    <div class="main-div">
+        Imagen de ejemplo: <br>
+        <img src="img/road-1072821_640.jpg" alt="Imagen original">
+        <div class="old-div">
+            Este div será eliminado
+        </div>
+    </div>
+    <hr>
+    <!-- ------------------------------------------------------------------- -->
+    <!-- Eventos -->
+    <button id="boton">Presiona aquí</button>
+
+    <!-- Crear una lista dinámica -->
+    <div>
+        <input type="text" id="itemInput" placeholder="Añade un ítem a la lista">
+        <button id="botonAñadir">Añadir</button>
+        <ul id="listaDinamica"></ul>
+    </div>
+
+    <!-- Filtrado de elementos -->
+    <input type="text" id="filterInput" placeholder="Filtrar ítems...">
+    <ul id="itemsList">
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Ruby</li>
+        <li>Java</li>
+        <li>PHP</li>
+    </ul>
+    <hr>
+    <!-- ------------------------------------------------------------------- -->
+    
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
